@@ -28,13 +28,13 @@
 - [2.6 B_PRODUCT Table](#26-b_product-table)
 - [2.7 Final Note](#27-recap-and-final-note)
 
-[3 Exercises](#4-exercises)
-- [3.1 Warm Up Questions - B_TRANSACTION only](#41-warm-up-questions---b_transaction-only)
-- [3.2 Exercises 1 - B_TRANSACTION](#42-exercises-1---b_transaction)
-- [3.3 Exercises 2 - B_STORE and B_TIME tables](#43-exercises-2---b_store-and-b_time-tables)
-- [3.4 Exercises 3 - B_CONTACT and More Complex Queries](#44-exercises-3---b_contact-b_member-and-more-complex-queries)
-- [3.5 Exercises 4 - Segmentation Tables and More on Tables](#45-exercises-4---segmentation-tables-and-more-on-tables)
-- [3.6 Exercises 5 - Age Calculations](#46-exercises-5---age-calculations)
+[3 Exercises](#3-exercises)
+- [3.1 Warm Up Questions - B_TRANSACTION only](#31-warm-up-questions---b_transaction-only)
+- [3.2 Exercises 1 - B_TRANSACTION](#32-exercises-1---b_transaction)
+- [3.3 Exercises 2 - B_STORE and B_TIME tables](#33-exercises-2---b_store-and-b_time-tables)
+- [3.4 Exercises 3 - B_CONTACT and More Complex Queries](#34-exercises-3---b_contact-b_member-and-more-complex-queries)
+- [3.5 Exercises 4 - Segmentation Tables and More on Tables](#35-exercises-4---segmentation-tables-and-more-on-tables)
+- [3.6 Exercises 5 - Age Calculations](#36-exercises-5---age-calculations)
 
 
 ## 1 Getting Started 
