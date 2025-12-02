@@ -29,10 +29,10 @@
 - [2.7 Final Note](#27-recap-and-final-note)
 
 [3 Exercises](#3-exercises)
-- [3.1 Warm Up Questions - B_TRANSACTION only](#31-warm-up-questions---b_transaction-only)
-- [3.2 Exercises 1 - B_TRANSACTION](#32-exercises-1---b_transaction)
-- [3.3 Exercises 2 - B_STORE and B_TIME tables](#33-exercises-2---b_store-and-b_time-tables)
-- [3.4 Exercises 3 - B_CONTACT and More Complex Queries](#34-exercises-3---b_contact-b_member-and-more-complex-queries)
+- [3.1 Warm Up Questions - F_TRANSACTION_DETAIL only](#31-warm-up-questions---f_transaction_detail-only)
+- [3.2 Exercises 1 - F_TRANSACTION_DETAIL](#32-exercises-1---f_transaction_detail)
+- [3.3 Exercises 2 - D_STORE and D_DATE tables](#33-exercises-2---d_store-and-d_date-tables)
+- [3.4 Exercises 3 - D_CONTACT, D_MEMBER and More Complex Queries](#34-exercises-3---d_contact-d_member-and-more-complex-queries)
 - [3.5 Exercises 4 - Segmentation Tables and More on Tables](#35-exercises-4---segmentation-tables-and-more-on-tables)
 - [3.6 Exercises 5 - Age Calculations](#36-exercises-5---age-calculations)
 
@@ -241,7 +241,7 @@
 
 
 ### 2.2 F_TRANSACTION Table
-[<u>Back to Top</u>](#sql-academy)
+[Back to Top](#table-of-contents)
 
 - ```rdm.f_transaction```
 - Contains all transactional data 
@@ -258,7 +258,6 @@
 
 
 ### 2.3 Main KPIs
-[<u>Back to Top</u>](#sql-academy)
 
 - ATV – $\text{average transaction value}=\frac{\text{total sales}}{\text{total transactions}}$
 
@@ -339,6 +338,7 @@
 - You can always use something like select distinct brand_name and find your desired record to see how it is formatted.
 
 # 3 Exercises 
+[Back to Top](#table-of-contents)
 
 ## 3.1 Warm Up Questions - F_TRANSACTION_DETAIL only
 
@@ -354,7 +354,7 @@
 2. For all transactions that occurred in 2025 Fiscal week 15 in SD, return the following columns: `bu_key, contact_key, transaction_date_key, order_number, sku, product_description, quantity and item_total_regular_unit_price`
 
 3. Return the following KPIs for 2025 fiscal week 30 (ATV, ATF, ACV, IPT, PPU) in SD. 
-### [KPI definitions]
+### KPI definitions
 - ATV – $\text{average transaction value}=\frac{\text{total sales}}{\text{total transactions}}$
 
 - ATF – $\text{average transaction frequency}=\frac{\text{total transactions}}{\text{no. of members}}$
@@ -365,7 +365,8 @@
 
 - PPU – $\text{price per unit}=\frac{\text{total sales}}{\text{no. of items}}$
 
-5. What was the most popular SKIN CARE product SKU in SD in 2025 in terms of total sales?
+
+4. What was the most popular SKIN CARE product SKU in SD in 2025 in terms of total sales?
 
 ## 3.3 Exercises 2 - D_STORE and D_DATE tables
 
@@ -378,14 +379,18 @@
 ## 3.4 Exercises 3 - D_CONTACT, D_MEMBER and More Complex Queries
 
 1. How many members shopped 2+ times in January 2025 in ICINL?
+
 2. How many male ICINL members who enrolled in 2025 are shopping again in 2024 (up to 202405)?
 
 
 ## 3.5 Exercises 4 - Segmentation tables and more on Tables
 
 1. How many VIP Members bought Lancôme in SD in YTD March 2025?
+
 2. What were the sales by week of Regular Female Members shopping in SD in February 2025?
+
 3. What is the current distribution of RFM segments for SD Members?
+
 5. Find the RFM Member Sales Split for SD in August 2025.
 
 ## 3.6 Exercises 5 - Age Calculations
@@ -405,8 +410,9 @@ CASE
 ```
 - note that it will need to be put in both the SELECT and the GROUP BY statements
 
-### Exercises 5
 1. What is the average age of MHU members which shopped Clinique in Week 25 2024? [Note: You would have to refer to birth date up till the current date to give age]
+
 2. What were the total sales for MILLENIAL members for the online MHU store in May 2025?
+
 3. What is the member generation split of MHU members that shopped Shiseido products in October 2025?
 
