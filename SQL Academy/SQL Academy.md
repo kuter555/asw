@@ -1,6 +1,6 @@
 # AS Watson SQL Academy
 
-![AS Watson Logo](images/asw_logo_blank_background.png)
+![AS Watson Logo](Images/asw_logo_blank_background.png)
 
 ## Table of Contents
 
@@ -51,10 +51,10 @@
 ### 1.2 Creating a Workbook
 - Head over to <u>[Databricks](https://adb-4609280326114182.2.azuredatabricks.net/?o=4609280326114182)</u> and login using your ASW account details
 - On the left hand side, click 'New', and then 'Notebook'
-![Creating a Workbook Diagram](images/creating-a-workbook.png)
+![Creating a Workbook Diagram](Images/creating-a-workbook.png)
 - In your new notebook type `%sql`, and then on a new line you can begin coding
 - To run any files, your notebook must be connected. To do so, click the 'Connect' box in the top right hand corner, then click 'sd-datalab-workbench-cluster'.
-![Connecting to Schema Diagram](images/connecting-to-schema.png)
+![Connecting to Schema Diagram](Images/connecting-to-schema.png)
 - If this isn't running, start the cluster (it will take a few minutes)
 - If you leave the site idle for long (around 10 mins) and don't run any queries, the schema will detatch. If this happens, just restart it.
 
